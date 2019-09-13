@@ -28,6 +28,7 @@ namespace HeaderEditor
         private void Save_Click(object sender, EventArgs e)
         {
             string EditText = richTextBox1.Text;
+            MessageBox.Show("hello");
         }
     }
 }

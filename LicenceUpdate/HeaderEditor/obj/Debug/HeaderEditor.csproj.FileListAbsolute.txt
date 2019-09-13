@@ -8,3 +8,13 @@ C:\Users\admin\Documents\project\LicenceUpdate\HeaderEditor\obj\Debug\HeaderEdit
 C:\Users\admin\Documents\project\LicenceUpdate\HeaderEditor\obj\Debug\HeaderEditor.exe
 C:\Users\admin\Documents\project\LicenceUpdate\HeaderEditor\obj\Debug\HeaderEditor.pdb
 C:\Users\admin\Documents\project\LicenceUpdate\HeaderEditor\obj\Debug\HeaderEditor.LicenceUserInterface.resources
+C:\Users\Alchemy.DESKTOP-V8A10HM\Source\Repos\apurva-vyas\project\LicenceUpdate\HeaderEditor\bin\Debug\HeaderEditor.exe.config
+C:\Users\Alchemy.DESKTOP-V8A10HM\Source\Repos\apurva-vyas\project\LicenceUpdate\HeaderEditor\bin\Debug\HeaderEditor.exe
+C:\Users\Alchemy.DESKTOP-V8A10HM\Source\Repos\apurva-vyas\project\LicenceUpdate\HeaderEditor\bin\Debug\HeaderEditor.pdb
+C:\Users\Alchemy.DESKTOP-V8A10HM\Source\Repos\apurva-vyas\project\LicenceUpdate\HeaderEditor\obj\Debug\HeaderEditor.csprojAssemblyReference.cache
+C:\Users\Alchemy.DESKTOP-V8A10HM\Source\Repos\apurva-vyas\project\LicenceUpdate\HeaderEditor\obj\Debug\HeaderEditor.LicenceUserInterface.resources
+C:\Users\Alchemy.DESKTOP-V8A10HM\Source\Repos\apurva-vyas\project\LicenceUpdate\HeaderEditor\obj\Debug\HeaderEditor.Properties.Resources.resources
+C:\Users\Alchemy.DESKTOP-V8A10HM\Source\Repos\apurva-vyas\project\LicenceUpdate\HeaderEditor\obj\Debug\HeaderEditor.csproj.GenerateResource.cache
+C:\Users\Alchemy.DESKTOP-V8A10HM\Source\Repos\apurva-vyas\project\LicenceUpdate\HeaderEditor\obj\Debug\HeaderEditor.csproj.CoreCompileInputs.cache
+C:\Users\Alchemy.DESKTOP-V8A10HM\Source\Repos\apurva-vyas\project\LicenceUpdate\HeaderEditor\obj\Debug\HeaderEditor.exe
+C:\Users\Alchemy.DESKTOP-V8A10HM\Source\Repos\apurva-vyas\project\LicenceUpdate\HeaderEditor\obj\Debug\HeaderEditor.pdb
