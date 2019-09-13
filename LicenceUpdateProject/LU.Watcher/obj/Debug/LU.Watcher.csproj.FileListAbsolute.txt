@@ -1,0 +1,6 @@
+C:\Users\admin\source\repos\LicenceUpdateProject\LU.Watcher\bin\Debug\LU.Watcher.dll
+C:\Users\admin\source\repos\LicenceUpdateProject\LU.Watcher\bin\Debug\LU.Watcher.pdb
+C:\Users\admin\source\repos\LicenceUpdateProject\LU.Watcher\obj\Debug\LU.Watcher.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\LicenceUpdateProject\LU.Watcher\obj\Debug\LU.Watcher.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\LicenceUpdateProject\LU.Watcher\obj\Debug\LU.Watcher.dll
+C:\Users\admin\source\repos\LicenceUpdateProject\LU.Watcher\obj\Debug\LU.Watcher.pdb

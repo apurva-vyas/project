@@ -1,0 +1,16 @@
+C:\Users\admin\source\repos\LicenceUpdateProject\LU.UserInterface\bin\Debug\LU.UserInterface.exe.config
+C:\Users\admin\source\repos\LicenceUpdateProject\LU.UserInterface\bin\Debug\LU.UserInterface.exe
+C:\Users\admin\source\repos\LicenceUpdateProject\LU.UserInterface\bin\Debug\LU.UserInterface.pdb
+C:\Users\admin\source\repos\LicenceUpdateProject\LU.UserInterface\bin\Debug\LU.DataAccessLayer.dll
+C:\Users\admin\source\repos\LicenceUpdateProject\LU.UserInterface\bin\Debug\LU.Watcher.dll
+C:\Users\admin\source\repos\LicenceUpdateProject\LU.UserInterface\bin\Debug\LU.DataAccessLayer.pdb
+C:\Users\admin\source\repos\LicenceUpdateProject\LU.UserInterface\bin\Debug\LU.Watcher.pdb
+C:\Users\admin\source\repos\LicenceUpdateProject\LU.UserInterface\obj\Debug\LU.UserInterface.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\LicenceUpdateProject\LU.UserInterface\obj\Debug\LU.UserInterface.login.resources
+C:\Users\admin\source\repos\LicenceUpdateProject\LU.UserInterface\obj\Debug\LU.UserInterface.Properties.Resources.resources
+C:\Users\admin\source\repos\LicenceUpdateProject\LU.UserInterface\obj\Debug\LU.UserInterface.UI.resources
+C:\Users\admin\source\repos\LicenceUpdateProject\LU.UserInterface\obj\Debug\LU.UserInterface.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\LicenceUpdateProject\LU.UserInterface\obj\Debug\LU.UserInterface.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\LicenceUpdateProject\LU.UserInterface\obj\Debug\LU.UserInterface.csproj.CopyComplete
+C:\Users\admin\source\repos\LicenceUpdateProject\LU.UserInterface\obj\Debug\LU.UserInterface.exe
+C:\Users\admin\source\repos\LicenceUpdateProject\LU.UserInterface\obj\Debug\LU.UserInterface.pdb

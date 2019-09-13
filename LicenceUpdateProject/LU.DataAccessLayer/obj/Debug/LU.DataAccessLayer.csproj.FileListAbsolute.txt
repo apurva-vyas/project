@@ -1,0 +1,6 @@
+C:\Users\admin\source\repos\LicenceUpdateProject\LU.DataAccessLayer\bin\Debug\LU.DataAccessLayer.dll
+C:\Users\admin\source\repos\LicenceUpdateProject\LU.DataAccessLayer\bin\Debug\LU.DataAccessLayer.pdb
+C:\Users\admin\source\repos\LicenceUpdateProject\LU.DataAccessLayer\obj\Debug\LU.DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\LicenceUpdateProject\LU.DataAccessLayer\obj\Debug\LU.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\LicenceUpdateProject\LU.DataAccessLayer\obj\Debug\LU.DataAccessLayer.dll
+C:\Users\admin\source\repos\LicenceUpdateProject\LU.DataAccessLayer\obj\Debug\LU.DataAccessLayer.pdb
