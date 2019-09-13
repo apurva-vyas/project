@@ -1,0 +1,7 @@
+C:\Users\admin\source\repos\Watcher1\Watcher1\bin\Debug\Watcher1.exe.config
+C:\Users\admin\source\repos\Watcher1\Watcher1\bin\Debug\Watcher1.exe
+C:\Users\admin\source\repos\Watcher1\Watcher1\bin\Debug\Watcher1.pdb
+C:\Users\admin\source\repos\Watcher1\Watcher1\obj\Debug\Watcher1.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\Watcher1\Watcher1\obj\Debug\Watcher1.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\Watcher1\Watcher1\obj\Debug\Watcher1.exe
+C:\Users\admin\source\repos\Watcher1\Watcher1\obj\Debug\Watcher1.pdb
