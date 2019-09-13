@@ -9,7 +9,7 @@ namespace LU.Watcher
 {
     public class Watcher
     {
-        private static void MonitorDirectory(string path)
+        public static void MonitorDirectory(string path)
 
         {
 

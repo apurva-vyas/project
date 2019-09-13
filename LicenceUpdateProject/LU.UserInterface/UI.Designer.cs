@@ -60,6 +60,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "Continue/Save Changes";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // UI
             // 

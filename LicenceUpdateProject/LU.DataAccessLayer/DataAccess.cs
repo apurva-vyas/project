@@ -13,28 +13,41 @@ namespace LU.DataAccessLayer
     {
         public static DataTable Check_Login(string username, string password)
         {
-            string connectionstring = ConfigurationManager.ConnectionStrings["siemensDbConStr1"].ConnectionString;
-            //SqlConnection con = new SqlConnection();
-            SqlConnection connection = new SqlConnection(connectionstring);
-            ConnectionState state = connection.State;
-            if (state == ConnectionState.Closed)
+           
+                string connectionstring = ConfigurationManager.ConnectionStrings["siemensDbConStr1"].ConnectionString;
+                //SqlConnection con = new SqlConnection();
+                SqlConnection connection = new SqlConnection(connectionstring);
+                ConnectionState state = connection.State;
+            try
             {
-                connection.Open();
+                if (state == ConnectionState.Closed)
+                {
+                    connection.Open();
+                }
+                if (connection != null)
+                {
+                    SqlDataAdapter sda = new SqlDataAdapter("select count(*) from Login where username='" + username + "' and password ='" + password + "'", connection);
+                    DataTable dt = new DataTable();
+                    sda.Fill(dt);
+                    return dt;
+                }
+                else
+                {
+                    return null;
+                }
             }
-            if (connection != null)
+            catch (Exception ex)
             {
-                SqlDataAdapter sda = new SqlDataAdapter("select count(*) from Login where username='" + username + "' and password ='" + password + "'", connection);
-                DataTable dt = new DataTable();
-                sda.Fill(dt);
-                return dt;
+                Console.WriteLine(ex);
             }
-            else{
-                return null;
-            }
-            if (state == ConnectionState.Open)
+            finally
             {
-                connection.Close();
+                if (state == ConnectionState.Open)
+                {
+                    connection.Close();
+                }
             }
+            return null;
 
         } 
     }
