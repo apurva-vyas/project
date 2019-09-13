@@ -1,0 +1,10 @@
+C:\Users\admin\Documents\project\LicenceUpdate\HeaderEditor\bin\Debug\HeaderEditor.exe.config
+C:\Users\admin\Documents\project\LicenceUpdate\HeaderEditor\bin\Debug\HeaderEditor.exe
+C:\Users\admin\Documents\project\LicenceUpdate\HeaderEditor\bin\Debug\HeaderEditor.pdb
+C:\Users\admin\Documents\project\LicenceUpdate\HeaderEditor\obj\Debug\HeaderEditor.csprojAssemblyReference.cache
+C:\Users\admin\Documents\project\LicenceUpdate\HeaderEditor\obj\Debug\HeaderEditor.Properties.Resources.resources
+C:\Users\admin\Documents\project\LicenceUpdate\HeaderEditor\obj\Debug\HeaderEditor.csproj.GenerateResource.cache
+C:\Users\admin\Documents\project\LicenceUpdate\HeaderEditor\obj\Debug\HeaderEditor.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\project\LicenceUpdate\HeaderEditor\obj\Debug\HeaderEditor.exe
+C:\Users\admin\Documents\project\LicenceUpdate\HeaderEditor\obj\Debug\HeaderEditor.pdb
+C:\Users\admin\Documents\project\LicenceUpdate\HeaderEditor\obj\Debug\HeaderEditor.LicenceUserInterface.resources
