@@ -1,0 +1,10 @@
+C:\Users\Alchemy.DESKTOP-V8A10HM\source\repos\LicenceUpdate\Licence.LoginForm\bin\Debug\Licence.LoginForm.exe.config
+C:\Users\Alchemy.DESKTOP-V8A10HM\source\repos\LicenceUpdate\Licence.LoginForm\bin\Debug\Licence.LoginForm.exe
+C:\Users\Alchemy.DESKTOP-V8A10HM\source\repos\LicenceUpdate\Licence.LoginForm\bin\Debug\Licence.LoginForm.pdb
+C:\Users\Alchemy.DESKTOP-V8A10HM\source\repos\LicenceUpdate\Licence.LoginForm\obj\Debug\Licence.LoginForm.Dummy.resources
+C:\Users\Alchemy.DESKTOP-V8A10HM\source\repos\LicenceUpdate\Licence.LoginForm\obj\Debug\Licence.LoginForm.Form1.resources
+C:\Users\Alchemy.DESKTOP-V8A10HM\source\repos\LicenceUpdate\Licence.LoginForm\obj\Debug\Licence.LoginForm.Properties.Resources.resources
+C:\Users\Alchemy.DESKTOP-V8A10HM\source\repos\LicenceUpdate\Licence.LoginForm\obj\Debug\Licence.LoginForm.csproj.GenerateResource.cache
+C:\Users\Alchemy.DESKTOP-V8A10HM\source\repos\LicenceUpdate\Licence.LoginForm\obj\Debug\Licence.LoginForm.csproj.CoreCompileInputs.cache
+C:\Users\Alchemy.DESKTOP-V8A10HM\source\repos\LicenceUpdate\Licence.LoginForm\obj\Debug\Licence.LoginForm.exe
+C:\Users\Alchemy.DESKTOP-V8A10HM\source\repos\LicenceUpdate\Licence.LoginForm\obj\Debug\Licence.LoginForm.pdb
