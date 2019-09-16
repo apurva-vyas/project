@@ -26,8 +26,9 @@ namespace LU.UserInterface
         {
             string EditText = richTextBox1.Text;
             string path = @"C:\Users\Alchemy.DESKTOP-V8A10HM\Desktop\CSharp\New folder\LicenceUpdate";
+            LU.Watcher.Watcher.MonitorDirectory(path);
+           
             
-            Watcher.Watcher.MonitorDirectory(path);
 
             
 

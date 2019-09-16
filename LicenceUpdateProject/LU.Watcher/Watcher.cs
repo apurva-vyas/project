@@ -12,7 +12,7 @@ namespace LU.Watcher
         public static void MonitorDirectory(string path)
 
         {
-
+            
             FileSystemWatcher fileSystemWatcher = new FileSystemWatcher();
 
             fileSystemWatcher.Path = path;
