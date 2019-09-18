@@ -35,10 +35,19 @@ namespace LU.UserInterface
 
                 if (count > 0)
                 {
-                    this.Hide();
-                    UI createobj = new UI(username);
-                    createobj.Show();
+                    if (username == "admin")
+                    {
+                        this.Hide();
+                        UI createobj = new UI(username);
+                        createobj.Show();
+                    }
+                    else
+                    {
+                        this.Hide();
+                        User createobj = new User(username);
+                        createobj.Show();
 
+                    }
                 }
                 else
                 {

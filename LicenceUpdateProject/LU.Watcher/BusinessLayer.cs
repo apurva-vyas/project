@@ -12,15 +12,15 @@ namespace LU.BusinessLayer
 {
     public class BusinessComponent
     {
-        static Dictionary<string,string> G_format = null;
-        static string useriName = null;
+        static Dictionary<string, string> G_format = null;
 
-        public void MonitorDirectory(string path, Dictionary<string,string> dict,string username)
+        static string user = null;
+        public void MonitorDirectory(string path, Dictionary<string, string> dict, string username)
 
         {
-            useriName = username;
+            user = username;
             G_format = dict;
-            G_format["Owner"] = useriName;
+
             FileSystemWatcher fileSystemWatcher = new FileSystemWatcher();
 
             fileSystemWatcher.Path = path;
@@ -55,13 +55,14 @@ namespace LU.BusinessLayer
 
             try
             {
-                
-                
-               // G_format["FileName"] = e.Name;
-                G_format["Last Modified By"] = useriName;
+                G_format["FileName"] = e.Name;
+                G_format["Owner"] = user;
+                // G_format["FileName"] = e.Name;
+                G_format["Last Modified By"] = user;
                 G_format["Last Modified Date and Time"] = DateTime.Now.ToString();
                 using (var writer = new StreamWriter(e.FullPath))
-                { writer.WriteLine("/*");
+                {
+                    writer.WriteLine("/*");
                     foreach (var i in G_format)
                     {
                         writer.WriteLine(i.Key + ":" + i.Value + "\n");
@@ -87,21 +88,24 @@ namespace LU.BusinessLayer
 
         {
 
-           throw new Exception("file deleted");
+            throw new Exception("file deleted");
 
         }
         private static void FileSystemWatcher_Changed(object sender, FileSystemEventArgs e)
         {
+            
             try
             {
+                G_format["FileName"] = e.Name;
+                G_format["Owner"] = user;
 
-                G_format["Last Modified By"] = useriName;
+                G_format["Last Modified By"] = user;
                 G_format["Last Modified Date and Time"] = DateTime.Now.ToString();
                 string str = "/*";
 
                 foreach (var kv_pair in G_format)
                 {
-                     str = str + "\n" + kv_pair.Key + ":" + kv_pair.Value;
+                    str = str + "\n" + kv_pair.Key + ":" + kv_pair.Value;
                 }
                 str = str + "*/";
                 if (File.Exists(e.FullPath))
@@ -113,6 +117,7 @@ namespace LU.BusinessLayer
                     contents = contents.Remove(pos1, pos2 + 2);
 
                     var tempfile = Path.GetTempFileName();
+                    //Thread.Sleep(500);
                     using (var writer = new StreamWriter(tempfile))
                     using (var reader = new StreamReader(e.FullPath))
                     {
