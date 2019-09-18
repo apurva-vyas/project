@@ -1,0 +1,37 @@
+﻿ // contents = contents.Replace("Technology", "tecf");
+                    // System.IO.File.WriteAllText(e.FullPath, contents);//write text to file
+                    //StreamReader file = new StreamReader(e.FullPath);
+                    //String line;
+
+                    //while ((line = file.ReadLine()) != null)
+                    //{
+                    //    if (line.Contains("//@Date Modified:"))
+                    //    {
+                    //        Console.WriteLine(line);
+                    //        line.Replace("Date", "Time");
+                    //        File.WriteAllLines(e.FullPath, line);
+                    //        Console.WriteLine(line);
+                    //        break;
+
+
+                    //    }
+                    //}
+
+                    /*  File.SetLastWriteTime(e.FullPath, new DateTime) */
+
+                }
+                //else
+                //{
+                //    Console.WriteLine("File exist but no header");
+                //    var tempfile = Path.GetTempFileName();
+                //    using (var writer = new StreamWriter(tempfile))
+                //    using (var reader = new StreamReader(e.FullPath))
+                //    {
+                //        Console.WriteLine("Inside update File");
+                //        writer.WriteLine(str);
+                //        while (!reader.EndOfStream)
+                //            writer.WriteLine(reader.ReadLine());
+                //    }
+                //    File.Copy(tempfile, e.FullPath, true);
+                //    File.Delete(tempfile);
+                //}

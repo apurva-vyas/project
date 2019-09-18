@@ -1,0 +1,5 @@
+C:\Users\Alchemy.DESKTOP-V8A10HM\Downloads\project-master\project-master\LicenceUpdateProject\LU.Entities\bin\Debug\LU.Entities.dll
+C:\Users\Alchemy.DESKTOP-V8A10HM\Downloads\project-master\project-master\LicenceUpdateProject\LU.Entities\bin\Debug\LU.Entities.pdb
+C:\Users\Alchemy.DESKTOP-V8A10HM\Downloads\project-master\project-master\LicenceUpdateProject\LU.Entities\obj\Debug\LU.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Alchemy.DESKTOP-V8A10HM\Downloads\project-master\project-master\LicenceUpdateProject\LU.Entities\obj\Debug\LU.Entities.dll
+C:\Users\Alchemy.DESKTOP-V8A10HM\Downloads\project-master\project-master\LicenceUpdateProject\LU.Entities\obj\Debug\LU.Entities.pdb

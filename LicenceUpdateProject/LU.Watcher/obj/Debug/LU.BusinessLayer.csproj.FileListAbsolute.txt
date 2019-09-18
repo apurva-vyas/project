@@ -1,0 +1,6 @@
+C:\Users\Alchemy.DESKTOP-V8A10HM\Downloads\project-master\project-master\LicenceUpdateProject\LU.Watcher\bin\Debug\LU.Watcher.dll
+C:\Users\Alchemy.DESKTOP-V8A10HM\Downloads\project-master\project-master\LicenceUpdateProject\LU.Watcher\bin\Debug\LU.Watcher.pdb
+C:\Users\Alchemy.DESKTOP-V8A10HM\Downloads\project-master\project-master\LicenceUpdateProject\LU.Watcher\obj\Debug\LU.BusinessLayer.csprojAssemblyReference.cache
+C:\Users\Alchemy.DESKTOP-V8A10HM\Downloads\project-master\project-master\LicenceUpdateProject\LU.Watcher\obj\Debug\LU.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Alchemy.DESKTOP-V8A10HM\Downloads\project-master\project-master\LicenceUpdateProject\LU.Watcher\obj\Debug\LU.Watcher.dll
+C:\Users\Alchemy.DESKTOP-V8A10HM\Downloads\project-master\project-master\LicenceUpdateProject\LU.Watcher\obj\Debug\LU.Watcher.pdb

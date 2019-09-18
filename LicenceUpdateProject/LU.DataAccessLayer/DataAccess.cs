@@ -11,44 +11,45 @@ namespace LU.DataAccessLayer
 {
     public class DataAccess
     {
-        public static DataTable Check_Login(string username, string password)
+        public int CheckLogin(string username, string password)
         {
-           
-                string connectionstring = ConfigurationManager.ConnectionStrings["siemensDbConStr1"].ConnectionString;
-                //SqlConnection con = new SqlConnection();
-                SqlConnection connection = new SqlConnection(connectionstring);
-                ConnectionState state = connection.State;
+            
+            string connectionstring = null;
+            SqlConnection connection = null;
+            SqlCommand command = null;
+            string query = null;
+            int count = 0;
             try
             {
-                if (state == ConnectionState.Closed)
-                {
-                    connection.Open();
-                }
+                connectionstring = ConfigurationManager.ConnectionStrings["siemensDbConStr1"].ConnectionString;
+                query = ConfigurationManager.AppSettings["AuthenticateUserQuery"];
+                connection = new SqlConnection(connectionstring);
                 if (connection != null)
                 {
-                    SqlDataAdapter sda = new SqlDataAdapter("select count(*) from Login where username='" + username + "' and password ='" + password + "'", connection);
-                    DataTable dt = new DataTable();
-                    sda.Fill(dt);
-                    return dt;
-                }
-                else
-                {
-                    return null;
+                    command = new SqlCommand();
+                    command.Connection = connection;
+                    command.CommandText = query;
+                    command.CommandType = CommandType.StoredProcedure;
+                    command.Parameters.AddWithValue("@uname", username);
+                    command.Parameters.AddWithValue("@pwd", password);
+
+
+                    connection.Open();
+                    count = (int)command.ExecuteScalar();
                 }
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex);
+                throw ex;
             }
             finally
             {
-                if (state == ConnectionState.Open)
+                if (connection.State == ConnectionState.Open)
                 {
                     connection.Close();
                 }
             }
-            return null;
-
-        } 
+            return count;
+        }
     }
 }

@@ -95,9 +95,9 @@
       <Project>{edba011d-68e4-44ea-abba-d636c4acc55c}</Project>
       <Name>LU.DataAccessLayer</Name>
     </ProjectReference>
-    <ProjectReference Include="..\LU.Watcher\LU.Watcher.csproj">
+    <ProjectReference Include="..\LU.Watcher\LU.BusinessLayer.csproj">
       <Project>{c9b5d39b-51af-4750-bc89-5228d642b72e}</Project>
-      <Name>LU.Watcher</Name>
+      <Name>LU.BusinessLayer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -41,11 +41,13 @@
             this.username1.Name = "username1";
             this.username1.Size = new System.Drawing.Size(100, 20);
             this.username1.TabIndex = 0;
+            this.username1.TextChanged += new System.EventHandler(this.username1_TextChanged);
             // 
             // password1
             // 
             this.password1.Location = new System.Drawing.Point(441, 173);
             this.password1.Name = "password1";
+            this.password1.PasswordChar = '*';
             this.password1.Size = new System.Drawing.Size(100, 20);
             this.password1.TabIndex = 1;
             // 

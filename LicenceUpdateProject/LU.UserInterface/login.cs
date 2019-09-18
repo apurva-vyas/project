@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using LU.DataAccessLayer;
-using LU.Watcher;
+using LU.BusinessLayer;
 namespace LU.UserInterface
 {
     public partial class login : Form
@@ -16,6 +16,7 @@ namespace LU.UserInterface
         public login()
         {
             InitializeComponent();
+
         }
 
         private void login_Load(object sender, EventArgs e)
@@ -25,24 +26,36 @@ namespace LU.UserInterface
 
         private void loginbutton_Click(object sender, EventArgs e)
         {
-            
-            string username = username1.Text;
-            string password = password1.Text;
-            DataTable dt = DataAccess.Check_Login(username,password);
-            
-            if (dt.Rows[0][0].ToString() == "1")
+            try
             {
-                this.Hide();
-                UI createobj = new UI();
-                createobj.Show();
 
+               string username = username1.Text;
+                string password = password1.Text;
+                int count = new DataAccess().CheckLogin(username, password);
+
+                if (count > 0)
+                {
+                    this.Hide();
+                    UI createobj = new UI(username);
+                    createobj.Show();
+
+                }
+                else
+                {
+                    MessageBox.Show("Enter correct credential", "alert", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                }
             }
-            else
+            catch (Exception ex)
             {
-                MessageBox.Show("Enter correct credential", "alert", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
+                MessageBox.Show("Enter correct credential" + ex);
             }
-            
+
+        }
+
+        private void username1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

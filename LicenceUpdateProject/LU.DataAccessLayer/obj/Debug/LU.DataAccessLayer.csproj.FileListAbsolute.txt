@@ -6,6 +6,10 @@ C:\Users\admin\source\repos\LicenceUpdateProject\LU.DataAccessLayer\obj\Debug\LU
 C:\Users\admin\source\repos\LicenceUpdateProject\LU.DataAccessLayer\obj\Debug\LU.DataAccessLayer.pdb
 C:\Users\Alchemy.DESKTOP-V8A10HM\Downloads\project-master\project-master\LicenceUpdateProject\LU.DataAccessLayer\bin\Debug\LU.DataAccessLayer.dll
 C:\Users\Alchemy.DESKTOP-V8A10HM\Downloads\project-master\project-master\LicenceUpdateProject\LU.DataAccessLayer\bin\Debug\LU.DataAccessLayer.pdb
+C:\Users\Alchemy.DESKTOP-V8A10HM\Downloads\project-master\project-master\LicenceUpdateProject\LU.DataAccessLayer\bin\Debug\LU.Entities.dll
+C:\Users\Alchemy.DESKTOP-V8A10HM\Downloads\project-master\project-master\LicenceUpdateProject\LU.DataAccessLayer\bin\Debug\LU.Entities.pdb
+C:\Users\Alchemy.DESKTOP-V8A10HM\Downloads\project-master\project-master\LicenceUpdateProject\LU.DataAccessLayer\obj\Debug\LU.DataAccessLayer.csprojAssemblyReference.cache
 C:\Users\Alchemy.DESKTOP-V8A10HM\Downloads\project-master\project-master\LicenceUpdateProject\LU.DataAccessLayer\obj\Debug\LU.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Alchemy.DESKTOP-V8A10HM\Downloads\project-master\project-master\LicenceUpdateProject\LU.DataAccessLayer\obj\Debug\LU.DataAccessLayer.csproj.CopyComplete
 C:\Users\Alchemy.DESKTOP-V8A10HM\Downloads\project-master\project-master\LicenceUpdateProject\LU.DataAccessLayer\obj\Debug\LU.DataAccessLayer.dll
 C:\Users\Alchemy.DESKTOP-V8A10HM\Downloads\project-master\project-master\LicenceUpdateProject\LU.DataAccessLayer\obj\Debug\LU.DataAccessLayer.pdb
